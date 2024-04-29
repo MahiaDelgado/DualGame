@@ -2,46 +2,8 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
-      <entry key="Register">
-        <State />
-      </entry>
-      <entry key="Register (1)">
-        <State />
-      </entry>
-      <entry key="Register (2)">
-        <State />
-      </entry>
-      <entry key="Register (3)">
-        <State>
-          <runningDeviceTargetSelectedWithDropDown>
-            <Target>
-              <type value="RUNNING_DEVICE_TARGET" />
-              <deviceKey>
-                <Key>
-                  <type value="VIRTUAL_DEVICE_PATH" />
-                  <value value="C:\Users\MAHIA\.android\avd\Pixel_3_XL_API_29.avd" />
-                </Key>
-              </deviceKey>
-            </Target>
-          </runningDeviceTargetSelectedWithDropDown>
-          <timeTargetWasSelectedWithDropDown value="2024-04-15T04:53:32.017217300Z" />
-        </State>
-      </entry>
       <entry key="app">
-        <State>
-          <targetSelectedWithDropDown>
-            <Target>
-              <type value="QUICK_BOOT_TARGET" />
-              <deviceKey>
-                <Key>
-                  <type value="VIRTUAL_DEVICE_PATH" />
-                  <value value="C:\Users\MAHIA\.android\avd\Pixel_3_XL_API_29.avd" />
-                </Key>
-              </deviceKey>
-            </Target>
-          </targetSelectedWithDropDown>
-          <timeTargetWasSelectedWithDropDown value="2024-04-15T05:02:02.211457900Z" />
-        </State>
+        <State />
       </entry>
     </value>
   </component>
