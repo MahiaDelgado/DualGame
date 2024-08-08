@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,25 +13,87 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Material3.Light"
         tools:targetApi="31">
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+        </activity>
+
         <activity
             android:name=".Register"
             android:theme="@style/Theme.Material3.Light.NoActionBar"
             android:exported="false" />
+
         <activity
             android:name=".Login"
             android:theme="@style/Theme.Material3.Light.NoActionBar"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
+
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".FullScreenImageActivity"
+            android:exported="true" />
 
-        </activity>
+        <activity
+            android:name=".LevelsActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".NumbersActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".VocalsActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".AbcActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".LanguageActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".WordsActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".GamesActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".LevelsActivityBraille"
+            android:exported="true" />
+
+        <activity
+            android:name=".AbcActivityBraille"
+            android:exported="true" />
+
+        <activity
+            android:name=".GamesActivityBraille"
+            android:exported="true" />
+
+        <activity
+            android:name=".NumbersActivityBraille"
+            android:exported="true" />
+
+        <activity
+            android:name=".VocalsActivityBraille"
+            android:exported="true" />
+
+        <activity
+            android:name=".WordsActivityBraille"
+            android:exported="true" />
     </application>
 
 </manifest>
